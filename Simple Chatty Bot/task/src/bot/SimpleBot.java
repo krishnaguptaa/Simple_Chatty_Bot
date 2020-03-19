@@ -1,10 +1,10 @@
 package bot;
 
+import java.util.Scanner;
+
 public class SimpleBot {
     public static void main(String[] args) {
-        System.out.println("Hello! My name is Krishna");
-        System.out.println("I was created in 2002");
-
-
+        Scanner scanner = new Scanner(System.in);
+        String s = scanner.next();
     }
 }
