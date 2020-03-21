@@ -9,6 +9,11 @@ class Main {
         int a = n1 + n2;
         int b = n2 + n3;
         int c = n3 + n1;
+        if ((a > n3) || (b > n1) || (c > n2)) {
+            System.out.println("YES");
+        } else {
+            System.out.println("NO");
+        }
 
 
         // put your code here
