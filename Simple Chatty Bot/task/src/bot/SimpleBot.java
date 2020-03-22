@@ -24,6 +24,7 @@ public class SimpleBot {
 
         System.out.println("Your age is " + age + "; that's a good time to start programming!");
         System.out.println("Now I will prove to you that I can count to any number you want.");
+        int n = scanner.nextInt();
 
         // read a number and count to it here
 
